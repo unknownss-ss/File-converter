@@ -19,7 +19,6 @@ body, html {
 h1 {
   font-size: 2rem;
   color: black;
-  transform: translateY(-20px);
   margin-bottom : 20px;
 }
 
@@ -44,7 +43,3 @@ h1 {
 }
 
 /* Readonly box specific style */
-#output-box {
-  background-color: #f0f0f0; /* Slightly different background */
-  cursor: not-allowed; /* Show it's readonly */
-}
