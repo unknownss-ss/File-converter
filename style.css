@@ -30,10 +30,15 @@ h1 {
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 250px; /* Set a width for the input box */
+  margin-bottom :20px;
 }
 
 /* Style for the output box */
 #output-box {
-  background-color: #f0f0f0; /* Slightly different background for output */
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px 
   cursor: not-allowed; /* Makes it clear the input box is not interactive */
 }
