@@ -34,8 +34,8 @@ h1 {
   font-size: 0.9rem;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 100px; /* Set a width for the input box */
-  height: 30px;
+  width: 200px; /* Set a width for the input box */
+  height: 50px;
   margin-bottom :20px;
   
 }
