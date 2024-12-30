@@ -40,6 +40,6 @@ h1 {
   width: 200px;
 }
 
-#input-box {
-  margin-bottom:20px;
+#input-box, #output-boxes {
+  height: 20px;
 }
