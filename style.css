@@ -29,17 +29,17 @@ h1 {
 }
 
 /* styling the input box */
-#input-box, #output-box  {
+#input-box, #output-box, #select-size, #select-size-output  {
   padding: 8px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 100px; /* Set a width for the input box */
+  height: 30px;
   margin-bottom :20px;
   
 }
-#select-size, #select-size-output {
-  width: 150px;
-  height: 40px;
+#input-box, #output-box {
+  margin-right: 20px;
 }
 
