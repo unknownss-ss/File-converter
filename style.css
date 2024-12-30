@@ -18,5 +18,5 @@ body, html {
 h1 {
   font-size: 2rem;
   color: black;
-  transform: translateY(-40px);
+  transform: translateY(-20px);
 }
