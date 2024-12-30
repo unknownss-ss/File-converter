@@ -8,6 +8,7 @@ body, html {
 /* Container to hold and center the heading */
 .container {
   display: flex; /* Enables Flexbox layout */
+  flex-direction: column;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
   height: 100vh; /* Full viewport height */
