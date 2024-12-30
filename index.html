@@ -10,10 +10,28 @@
   <div class="container">
     <h1>File Size Converter</h1>
     <!-- Input box for the user to enter the file size --> 
-    <input type="text" id="input-box" placeholder="Enter file size value: " />
+    <div class="input-wrapper">
+      <input type="text" id="input-box" placeholder="Enter file size value: " />
+
+      <!-- Dropdown of the file sizes -->
+      <select id="select-size">
+        <option value="bytes">Bytes</option>
+        <option value="kilobytes">Kilobytes</option>
+        <option value="megabytes">Megabytes</option>
+        <option value="gigabytes">Gigabytes</option>
+      </select>
+    </div>
 
     <!-- Readonly output box for the calculation to be displayed -->
-    <input type="text" id="output-box" placeholder="Result" readonly />
+    <div class="output-wrapper">
+      <input type="text" id="output-box" placeholder="Result" readonly />
+      <select id="select-size-output">
+        <option value="bytes">Bytes</option>
+        <option value="kilobytes">Kilobytes</option>
+        <option value="megabytes">Megabytes</option>
+        <option value="gigabytes">Gigabytes</option>
+      </select>
+    </div>
   </div>
 </body>
 </html>

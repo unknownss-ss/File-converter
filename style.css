@@ -19,17 +19,26 @@ body, html {
 h1 {
   font-size: 2rem;
   color: black;
-  transform: translateY(-20px);
   margin-bottom : 20px;
 }
 
-/* styling the input box */
-#input-box, #output-box {
-  padding: 10px;
-  font-size: 1rem;
+
+/* Wrappers for input/output and dropdowns */
+.input-wrapper, .output-wrapper {
+  display: flex;
+  gap: 15px; /* Add space between the input and dropdowns */
+  justify-content: center; /* Center the elements horizontally */
+  margin-bottom: 20px; /* Add space between input and output sections */
+}
+
+/* Styling for input boxes and dropdowns to make them identical */
+#input-box, #output-box, #select-size, #select-size-output {
+  height: 40px; /* Same height for all boxes */
+  width: 200px; /* Same width for all boxes */
+  padding: 5px; /* Padding inside the boxes */
+  font-size: 1rem; /* Same font size */
   border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 250px; /* Set a width for the input box */
-  margin-bottom :20px;
+  border-radius: 4px; /* Rounded corners for a polished look */
+  box-sizing: border-box; /* Ensures padding is included in width/height */
 }
 
