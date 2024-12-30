@@ -31,20 +31,10 @@ h1 {
 }
 
 /* styling the input box */
-#select-size, #select-size-output {
-  padding: 10px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  height: 40px;
-  width: 200px;
-}
-
 #input-box, #output-box {
-  height: 30px;
   padding: 10px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 200px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 140px;
 }
