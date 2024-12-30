@@ -30,16 +30,17 @@ h1 {
 
 /* styling the input box */
 #input-box, #output-box, #select-size, #select-size-output {
-  padding: 10px;
+  padding: 8px;
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 250px; /* Set a width for the input box */
   margin-bottom :20px;
-  height: 40px;
+  
 }
 
-#select-size, #select-size-output{
+#select-size, #select-size-output, #input-box, #output-box{
   width: 150px;
+  height: 40px;
 }
 
