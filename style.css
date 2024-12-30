@@ -31,7 +31,7 @@ h1 {
 }
 
 /* styling the input box */
-#input-box, #output-box, #select-size, #select-size-output {
+#select-size, #select-size-output {
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ccc;
@@ -41,5 +41,10 @@ h1 {
 }
 
 #input-box, #output-boxes {
-  height: 20px;
+  height: 30px;
+   padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
 }
