@@ -8,6 +8,7 @@ body, html {
 /* Container to hold and center the heading */
 .container {
   display: flex; /* Enables Flexbox layout */
+  flex-direction: column;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
   height: 100vh; /* Full viewport height */
@@ -19,4 +20,14 @@ h1 {
   font-size: 2rem;
   color: black;
   transform: translateY(-20px);
+  margin-bottom : 20px;
+}
+
+/* styling the input box */
+#input-box {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px; /* Set a width for the input box */
 }
