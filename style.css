@@ -19,6 +19,7 @@ h1 {
   font-size: 2rem;
   color: black;
   transform: translateY(-20px);
+  margin-bottom : 20px;
 }
 
 /* styling the input box */
