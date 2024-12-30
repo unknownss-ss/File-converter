@@ -22,6 +22,7 @@ h1 {
   transform: translateY(-20px);
   margin-bottom : 20px;
 }
+
 .input-wrapper, .output-wrapper {
   display: flex;
   align-items: center; /* Align items vertically */
@@ -29,14 +30,15 @@ h1 {
 }
 
 /* styling the input box */
-#input-box, #output-box,   {
+#input-box, #output-box, #select-size, #select-size-output  {
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 250px; /* Set a width for the input box */
-  margin-bottom :20px;
   margin-right: 20px;  
 }
 
+#input-box, #output-box, #select-size, #select-size-output {
+  height: 40px;
+}
 
