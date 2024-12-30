@@ -29,17 +29,14 @@ h1 {
 }
 
 /* styling the input box */
-#input-box, #output-box, #select-size, #select-size-output  {
+#input-box, #output-box,   {
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 200px; /* Set a width for the input box */
-  height: 50px;
+  width: 250px; /* Set a width for the input box */
   margin-bottom :20px;
-  
+  margin-right: 20px;  
 }
-#input-box, #output-box {
-  margin-right: 20px;
-}
+
 
