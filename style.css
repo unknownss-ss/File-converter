@@ -29,5 +29,5 @@ h1 {
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 250px; /* Set a width for the input box */
-  margin-left: -30px; /* Move the input box slightly to the left */
+ /* Move the input box slightly to the left */
 }
