@@ -33,7 +33,3 @@ h1 {
   margin-bottom :20px;
 }
 
-/* Style for the output box */
-#output-box {
-  cursor: not-allowed; /* Makes it clear the input box is not interactive */
-}
