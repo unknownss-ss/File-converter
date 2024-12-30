@@ -38,8 +38,7 @@ h1 {
   padding: 5px; /* Padding inside the boxes */
   font-size: 1rem; /* Same font size */
   border: 1px solid #ccc;
-  border-radius: 5px; /* Rounded corners for a polished look */
+  border-radius: 4px; /* Rounded corners for a polished look */
   box-sizing: border-box; /* Ensures padding is included in width/height */
 }
 
-/* Readonly box specific style */
