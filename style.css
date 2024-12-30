@@ -1,25 +1,23 @@
-/* Reset the margin and padding */
-body, html {
+/* Reset margins and paddings */
+html, body {
     margin: 0;
     padding: 0;
-    height: 100%; /* Set the height to 100% for the viewport */
+    height: 100%; /* Set full height for the viewport */
 }
 
-/* Center the container using flexbox */
+/* Flexbox for centering the container */
 #title-container {
-    display: flex;
+    display: flex; /* Enable Flexbox */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    height: 100%; /* Make the container fill the screen */
-    text-align: center; /* Align text within the container */
-    background-color: #f9f9f9; /* Optional background color */
+    height: 100%; /* Fill the entire screen height */
 }
 
-/* Style the title */
+/* Title styling */
 #main-title {
     font-size: 3rem; /* Adjust font size */
-    font-family: Arial, sans-serif; /* Font family */
+    font-family: Arial, sans-serif; /* Font styling */
     color: #333; /* Text color */
-    margin: 0; /* Remove margin from heading */
+    margin: 0; /* Remove default margin on h1 */
+    text-align: center; /* Ensure the text aligns to the center */
 }
-
