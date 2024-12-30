@@ -1,16 +1,21 @@
-
-/* Ensure the html and body fill the entire screen */
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center;     /* Centers vertically */
+/* Reset margins and padding for body and html */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensures the full viewport height is covered */
 }
 
-/* Style the heading and move it slightly upward */
+/* Container to hold and center the heading */
+.container {
+  display: flex; /* Enables Flexbox layout */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0; /* Optional, for visualization */
+}
+
+/* Styling the heading */
 h1 {
-    font-size: 3rem;
-    color: black;
-    transform: translateY(-20px); /* Move the heading up by 20px */
+  font-size: 2rem;
+  color: #333;
 }
