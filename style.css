@@ -1,1 +1,25 @@
+/* Reset the margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Set the height to 100% for the viewport */
+}
+
+/* Center the container using flexbox */
+#title-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Make the container fill the screen */
+    text-align: center; /* Align text within the container */
+    background-color: #f9f9f9; /* Optional background color */
+}
+
+/* Style the title */
+#main-title {
+    font-size: 3rem; /* Adjust font size */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Text color */
+    margin: 0; /* Remove margin from heading */
+}
 
