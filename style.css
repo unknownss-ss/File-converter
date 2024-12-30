@@ -24,7 +24,7 @@ h1 {
 }
 
 /* styling the input box */
-#input-box {
+#input-box, #output-box {
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ccc;
@@ -35,10 +35,5 @@ h1 {
 
 /* Style for the output box */
 #output-box {
-  padding: 10px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 250px 
   cursor: not-allowed; /* Makes it clear the input box is not interactive */
 }
