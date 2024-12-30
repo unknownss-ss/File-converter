@@ -29,7 +29,7 @@ h1 {
 }
 
 /* styling the input box */
-#input-box, #output-box, #select-size, #select-size-output {
+#input-box, #output-box  {
   padding: 8px;
   font-size: 1rem;
   border: 1px solid #ccc;
@@ -38,8 +38,7 @@ h1 {
   margin-bottom :20px;
   
 }
-
-#select-size, #select-size-output, #input-box, #output-box{
+#select-size, #select-size-output {
   width: 150px;
   height: 40px;
 }
