@@ -31,3 +31,9 @@ h1 {
   border-radius: 4px;
   width: 250px; /* Set a width for the input box */
 }
+
+/* Style for the output box */
+#output-box {
+  background-color: #f0f0f0; /* Slightly different background for output */
+  cursor: not-allowed; /* Makes it clear the input box is not interactive */
+}
