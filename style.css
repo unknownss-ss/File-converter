@@ -17,5 +17,6 @@ body, html {
 /* Styling the heading */
 h1 {
   font-size: 2rem;
-  color: #333;
+  color: black;
+  transform: translateY(-40px);
 }
