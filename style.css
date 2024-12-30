@@ -23,18 +23,28 @@ h1 {
   margin-bottom : 20px;
 }
 
+
+/* Wrappers for input/output and dropdowns */
 .input-wrapper, .output-wrapper {
   display: flex;
-  gap: 10px;
- /* align-items: center; Align items vertically */
- /* margin-bottom: 20px;  Space between input/output sections */
+  gap: 15px; /* Add space between the input and dropdowns */
+  justify-content: center; /* Center the elements horizontally */
+  margin-bottom: 20px; /* Add space between input and output sections */
 }
 
-/* styling the input box */
-input, select {
-  padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 140px;
+/* Styling for input boxes and dropdowns to make them identical */
+#input-box, #output-box, #select-size, #select-size-output {
+  height: 40px; /* Same height for all boxes */
+  width: 200px; /* Same width for all boxes */
+  padding: 5px; /* Padding inside the boxes */
+  font-size: 1rem; /* Same font size */
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Rounded corners for a polished look */
+  box-sizing: border-box; /* Ensures padding is included in width/height */
+}
+
+/* Readonly box specific style */
+#output-box {
+  background-color: #f0f0f0; /* Slightly different background */
+  cursor: not-allowed; /* Show it's readonly */
 }
