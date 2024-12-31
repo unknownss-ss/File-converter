@@ -29,6 +29,7 @@ h1 {
   gap: 15px; /* Add space between the input and dropdowns */
   justify-content: center; /* Center the elements horizontally */
   margin-bottom: 20px; /* Add space between input and output sections */
+  margin-top: 20px;
 }
 
 /* Styling for input boxes and dropdowns to make them identical */
@@ -41,4 +42,5 @@ h1 {
   border-radius: 4px; /* Rounded corners for a polished look */
   box-sizing: border-box; /* Ensures padding is included in width/height */
 }
+
 
