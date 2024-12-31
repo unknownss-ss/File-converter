@@ -12,6 +12,10 @@ const convertingby = {
   gigabytes: 1024 * 1024 * 1024,
 
 };
+if (isNaN(value) || value <= 0) {
+  document.getElementById('output-box').value = "Invalid Input";
+  return;
+}
   
 const bytesconversion = value *convertingby[unit];
 const convertedvalue = bytesconversion / convertingby[outputunit];
