@@ -5,14 +5,14 @@ function converting() {
   const outputunit = document.getElementById('select-size-output').value;
 
 
-const convertingby ={
-  byes:1,
+const convertingby = {
+  bytes:1,
   kilobytes: 1024,
   megabytes: 1024 * 1024,
   gigabytes: 1024 * 1024 * 1024,
 
 };
-
+  
 const bytesconversion = value *convertingby[unit];
 const convertedvalue = bytesconversion / convertingby[outputunit];
 
