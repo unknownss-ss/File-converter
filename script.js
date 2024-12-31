@@ -20,7 +20,8 @@ if (isNaN(value) || value <= 0) {
 const bytesconversion = value *convertingby[unit];
 const convertedvalue = bytesconversion / convertingby[outputunit];
 
-document.getElementById('output-box').value = convertedvalue.toFixed(2); //.toFixed(2) for rounding to 2dp
+// to not have any decimal points   
+document.getElementById('output-box').value = Math.round(convertedvalue); 
                                        
 }
 
