@@ -40,6 +40,15 @@ h1 {
   font-size: 1rem; /* Same font size */
   border: 1px solid #ccc;
   border-radius: 4px; /* Rounded corners for a polished look */
+
+}
+
+#convert-button, #reset-button {
+  margin: 0 10px;
+}
+
+
+  
   box-sizing: border-box; /* Ensures padding is included in width/height */
 }
 
