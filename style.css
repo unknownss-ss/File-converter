@@ -12,7 +12,7 @@ body, html {
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
   height: 100vh; /* Full viewport height */
-  background-color: #f0f0f0; /* Optional, for visualization */
+  background-color: #f0f8ff; /* Optional, for visualization */
 }
 
 /* Styling the heading */
