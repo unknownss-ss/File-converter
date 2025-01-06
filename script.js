@@ -36,3 +36,13 @@ function reset(){
 }
 
 document.getElementById('reset-button').addEventListener('click',reset);
+
+function switching(){
+  [document.getElementById("input-box").value, document.getElementById("output-box").value] =
+  [document.getElementById("output-box").value, document.getElementById("input-box").value];
+
+  // Swap the selected options of the dropdowns
+  [document.getElementById("select-size").value, document.getElementById("select-size-output").value] =
+  [document.getElementById("select-size-output").value, document.getElementById("select-size").value];
+}
+document.getElementById("switch-button").addEventListener('click',switching);
